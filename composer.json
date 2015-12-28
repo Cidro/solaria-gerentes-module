@@ -1,0 +1,21 @@
+{
+    "name": "asimov/solaria/modules/gerentes",
+    "description": "Mantenedor de gerentes para Sitio Gtd con CMS solaria",
+    "license": "MIT",
+    "keywords": ["gerentes", "solaria", "asimov"],
+    "authors": [
+        {
+            "name": "Pablo Canales",
+            "email": "pablo@asimov.cl"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asimov\\Solaria\\Modules\\Gerentes\\": "src/"
+        }
+    }
+}
